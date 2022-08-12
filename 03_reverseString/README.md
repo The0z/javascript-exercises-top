@@ -10,3 +10,10 @@ You will notice in this exercise that there are multiple tests, after making the
 
 ## Hints
 Strings in JavaScript cannot be reversed directly so you're going to have to split it into something else first.. do the reversal and then join it back together into a string.
+
+reverseString
+- works with multiple words, single words, punctuation/numbers, and empty strings. 
+- use split to split the string into an array
+- run through the array in reverse order using a for loop that counts down from array.length - 1.]
+- takes in a str
+- returns the reversed str
