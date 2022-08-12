@@ -27,3 +27,15 @@ You will notice in this exercise that there are multiple tests (see in file `rep
 Test Suites: 1 passed, 1 total
 Tests:       6 skipped, 1 passed, 7 total
 ```
+
+## Personal Notes:
+repeatString (str, num)
+-returns the concatenated version of str in which it repeats num amount of times
+-i.e. repeatString('hi',2) = 'hihi'
+-num must be greater than or equal to 0.
+- num = 0 will return an empty string, anything less than 0 will return an ERROR
+- repeatString is a deceptive name as num=1 doesn't repeat it once, rather returns the original.
+check if num is less than 0. If so return "Error"
+start with a blank string
+loop num amount of times,  each loop concatenate another copy of the string on
+return string after loop (i.e. if loop runs zero times, blank string will be returned)
