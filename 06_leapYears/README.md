@@ -14,3 +14,9 @@ leapYears(1985) // is not a leap year: returns false
 
 ## Hints
 - use an `if` statement and `&&` to make sure all the conditions are met properly
+
+## Personal Notes
+- Need to check 3 conditions, Leap years are divisible by four except if divisible by 100 but not 400.
+- first check if divisible by 4 (modulus returns 0 if divisible) if not return false
+- Within the first if, check if divisible by 100 (modulus returns 0 if divisible), if not return true 
+- Within the divisible by 100 if, check if divisible by 400, if so return true, else return false.
