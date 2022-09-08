@@ -16,4 +16,6 @@ palindromes('racecar') // true
 palindromes('tacos') // false
 ```
 
-
+## Notes:
+- Super Advanced Palindrome
+- Works with sentences - removes all punctuation and spaces. These don't count.
