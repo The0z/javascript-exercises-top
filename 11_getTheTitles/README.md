@@ -24,3 +24,10 @@ getTheTitles(books) // ['Book','Book2']
 ## Hints
 
 - You should use a built-in javascript method to do most of the work for you!
+
+
+## Notes
+- use array built in map function to reduce the object into a simple array of book titles.
+- return arr.map(mapFunction)
+- function MapFunction
+-- return book.title
